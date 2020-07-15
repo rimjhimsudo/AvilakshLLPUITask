@@ -43,12 +43,21 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="20dp">
-                <EditText
+                <!--<EditText
                     android:layout_width="340dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/et_search"
                     android:hint="Search for a service "
-                    android:paddingStart="10dp"/>
+                    android:paddingStart="10dp"/>-->
+                <Spinner
+                    android:id="@+id/et_search"
+                    android:layout_width="320dp"
+                    android:paddingStart="10dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorWhite"
+                    android:entries="@array/servce_arrays"
+                    android:prompt="@string/services"
+                    style="@style/SpinnerwithNoArrow"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -66,7 +75,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp">
                 <RelativeLayout
-                    android:layout_width="60dp"
+                    android:layout_width="50dp"
                     android:layout_height="70dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
@@ -97,8 +106,8 @@
                     android:layout_alignEnd="@+id/box1"
                     />
                 <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:id="@+id/box2"
@@ -127,8 +136,8 @@
                     android:layout_alignEnd="@+id/box2"
                     />
                 <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:id="@+id/box3"
@@ -157,8 +166,8 @@
                     android:layout_alignEnd="@+id/box3"
                     />
                 <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:id="@+id/box4"
@@ -197,8 +206,8 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp">
                 <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:id="@+id/box5"
@@ -228,8 +237,8 @@
                     android:layout_alignEnd="@+id/box5"
                     />
                 <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:id="@+id/box6"
@@ -258,8 +267,8 @@
                     android:layout_alignEnd="@+id/box6"
                     />
                 <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:id="@+id/box7"
@@ -288,8 +297,8 @@
                     android:layout_alignEnd="@+id/box7"
                     />
                 <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:id="@+id/box8"
@@ -342,7 +351,9 @@
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/recylervw"/>
+            android:id="@+id/recylervw"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
 
     </LinearLayout>
 

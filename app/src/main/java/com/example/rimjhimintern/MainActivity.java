@@ -33,15 +33,15 @@ public class MainActivity extends AppCompatActivity {
         Window window = getWindow();
         bottomNavigationItemView=findViewById(R.id.bottom_navigation);
         // clear FLAG_TRANSLUCENT_STATUS flag:
-        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        /*window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
 
         // add FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS flag to the window
         window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
 
         // finally change the color
-        window.setStatusBarColor(ContextCompat.getColor(getApplicationContext(),R.color.colorBg));
+        window.setStatusBarColor(ContextCompat.getColor(getApplicationContext(),R.color.colorBg));*/
          badgeDrawable = bottomNavigationItemView.getOrCreateBadge(R.id.page_2);
-        badgeDrawable1 = bottomNavigationItemView.getOrCreateBadge(R.id.page_2);
+        badgeDrawable1 = bottomNavigationItemView.getOrCreateBadge(R.id.page_3);
         badgeDrawable.isVisible();
         badgeDrawable.setNumber(3);
         badgeDrawable1.isVisible();

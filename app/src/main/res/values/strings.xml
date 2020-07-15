@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Rimjhim intern</string>
+    <string name="services">Search for a service</string>
+
+    <string-array name="servce_arrays">
+        <item>Beauty</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
 </resources>
