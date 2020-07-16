@@ -26,21 +26,33 @@
                     android:id="@+id/img_location"
                     android:src="@drawable/ic_marker"
                     android:padding="5dp"/>
-                <TextView
+                <Spinner
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/dropdown_location"
-                    android:text="abcd"
-                    android:textColor="@color/colorWhite"
-                    android:textSize="20sp"
                     android:layout_toRightOf="@+id/img_location"
-                    android:padding="5dp"/>
-            </RelativeLayout>
+                    android:padding="5dp"
+                    android:background="@null"
+                    android:dropDownSelector="@drawable/ic_keyboard_arrow_down_black_24dp"
+
+                    />
+<!--
+                android:dropDownSelector="@drawable/ic_keyboard_arrow_down_black_24dp"
+-->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/arrow_loc"
+                    android:layout_toRightOf="@+id/dropdown_location"
+                    android:src="@drawable/ic_keyboard_arrow_down_black_24dp"
+                    android:layout_centerVertical="true"
+                    />
+        </RelativeLayout>
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/colorWhite"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="25dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="20dp">
                 <!--<EditText
@@ -50,14 +62,19 @@
                     android:hint="Search for a service "
                     android:paddingStart="10dp"/>-->
                 <Spinner
-                    android:id="@+id/et_search"
+                    android:id="@+id/sp_search"
                     android:layout_width="320dp"
-                    android:paddingStart="10dp"
+                    android:paddingStart="5dp"
                     android:layout_height="30dp"
                     android:background="@color/colorWhite"
-                    android:entries="@array/servce_arrays"
-                    android:prompt="@string/services"
-                    style="@style/SpinnerwithNoArrow"/>
+                    style="@style/SpinnerwithNoArrow"
+
+                    />
+<!--
+                android:entries="@array/servce_arrays"
+                android:prompt="@string/services"
+-->
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -307,7 +324,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:id="@+id/img_repair"
-                        android:src="@drawable/ic_home"
+                        android:src="@drawable/ic_driller"
                         android:padding="5dp"
                         android:layout_centerHorizontal="true"
 

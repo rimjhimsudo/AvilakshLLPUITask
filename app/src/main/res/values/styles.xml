@@ -10,8 +10,16 @@
 
     </style>
     <style parent="@android:style/Widget.Spinner" name="SpinnerwithNoArrow">
-        <item name="android:background">@android:drawable/edit_text</item>
+        <item name="android:background" >@android:drawable/edit_text</item>
     </style>
+    <!--<style name="SpinnerTheme" parent="android:Widget.Spinner">
+        <item name="android:background" >@drawable/bg_spinner
+        </item>
+
+    </style>-->
+    <!--<style parent="@android:style/Widget.Spinner" name="SpinnerwithCustomArrow">
+        <item name="android:background">@android:drawable/edit_text</item>
+    </style>-->
 
 
 </resources>

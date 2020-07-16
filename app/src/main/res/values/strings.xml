@@ -3,13 +3,22 @@
     <string name="services">Search for a service</string>
 
     <string-array name="servce_arrays">
+        <item>Search for a service...</item>
         <item>Beauty</item>
-        <item>United States</item>
-        <item>Indonesia</item>
-        <item>France</item>
-        <item>Italy</item>
-        <item>Singapore</item>
-        <item>New Zealand</item>
-        <item>India</item>
+        <item>Health</item>
+        <item>Lessons</item>
+        <item>Service</item>
+        <item>Business</item>
+        <item>Events</item>
+        <item>Hobbies</item>
+        <item>Repairs</item>
+    </string-array>
+    <string-array name="locatn_arrays">
+        <item>Banarasi Das Estate, Delhi</item>
+        <item>Dwarka, Delhi</item>
+        <item>Lajpat Nagar, Delhi</item>
+        <item>Okhla</item>
+        <item>Janakpuri</item>
+
     </string-array>
 </resources>
